@@ -1,0 +1,5 @@
+node_modules
+.env
+.vscode
+src/uploads/images/*
+!src/uploads/images/.gitkeep

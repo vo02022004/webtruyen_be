@@ -1,0 +1,44 @@
+{
+  "name": "webtruyen_nhomk_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "http-errors": "^2.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.3",
+    "reactjs-tag-input": "^2.0.15",
+    "sequelize": "^6.37.4",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "_moduleAliases": {
+    "@models": "src/models",
+    "@controllers": "src/controllers",
+    "@utils": "src/utils",
+    "@config": "src/config",
+    "@services": "src/services",
+    "@helper": "src/helper",
+    "@middlewares": "src/middlewares",
+    "@uploads": "src/uploads",
+    "@root": "."
+  }
+}
